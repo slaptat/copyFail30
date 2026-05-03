@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # This version utilizes ctypes as a drop in for 'splice()' 
-# for exploiting systems with python < 3.10.
+# for exploiting systems with python > 3.10.
 
 import os as g,zlib,socket as s
 import ctypes
